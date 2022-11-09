@@ -31,7 +31,7 @@ export class Vuelo extends Entity {
     type: 'string',
     required: true,
   })
-  horafin: string;
+  hora_fin: string;
 
   @property({
     type: 'string',
